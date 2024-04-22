@@ -43,3 +43,13 @@ $('.slider').slick({
         }
     ]
 });
+
+const section3heading = document.querySelectorAll(".section3-heading");
+
+section3heading.forEach(e => {
+    e.addEventListener("click", () => {
+        const re = document.querySelector(".section3-heading.active1")
+        e.classList.toggle("active1");
+        re && re.classList.remove("active1")
+    })
+})

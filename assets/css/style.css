@@ -41,8 +41,16 @@
     font-size: var(--fs-xl);
 }
 
+.fs-20 {
+    font-size: var(--fs-2xl);
+}
+
 .fs-32 {
     font-size: var(--fs-5xl);
+}
+
+.fs-44 {
+    font-size: var(--fs-7xl);
 }
 
 .fs-48 {
@@ -183,6 +191,49 @@
     border-radius: 40px;
 }
 
+.mt-84 {
+    margin-top: 84px;
+}
+
+.bottom-20 {
+    bottom: -20%;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.slider-image {
+    filter: grayscale(100%);
+    transition: all 200ms linear;
+}
+
+.slider-image:hover {
+    filter: grayscale(0%);
+}
+
+.slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
 
 
 

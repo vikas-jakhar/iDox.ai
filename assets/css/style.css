@@ -273,6 +273,10 @@
     opacity: 70%;
 }
 
+.heading3-text{
+    line-height: 30px;
+}
+
 .active1 {
     .clock1 {
         display: grid;
@@ -295,6 +299,13 @@
     top: 20%;
 }
 
+.section4-heading {
+    background: #0389FF1F;
+    max-width: 400px;
+    height: 80px;
+    padding: 0px 16px 0px 16px;
+    border-radius: 10px;
+}
 
 
 
@@ -303,6 +314,11 @@
 
 
 
+@media (min-width:576px) {
+    .heading3-text{
+        line-height: 55px;
+    }
+}
 
 @media (min-width:992px) {
     .menu-list {

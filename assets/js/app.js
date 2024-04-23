@@ -52,4 +52,17 @@ section3heading.forEach(e => {
         e.classList.toggle("active1");
         re && re.classList.remove("active1")
     })
-})
+});
+
+$('.slider1').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // autoplay: true,
+    // infinite: true,
+    speed: 1000,
+    centerMode: true,
+    centerPadding: '60px',
+    dots: true,
+    arrows: false,
+});
+

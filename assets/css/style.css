@@ -10,6 +10,7 @@
 
 :root {
     /* font-size */
+    --fs-11: 11px;
     --fs-sm: 12px;
     --fs-base: 14px;
     --fs-15: 15px;
@@ -27,6 +28,10 @@
     --color-black: #000000;
     --color-FBFDFF: #FBFDFF;
     --color-0389FF: #0389FF;
+}
+
+.fs-11 {
+    font-size: var(--fs-11);
 }
 
 .fs-14 {
@@ -346,6 +351,9 @@
     opacity: 50%;
 }
 
+.dotted-border {
+    border: 1px dotted #0389FF
+}
 
 
 

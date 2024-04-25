@@ -182,7 +182,19 @@
 .list-text::after {
     content: '';
     position: absolute;
-    bottom: -5px;
+    bottom: -7px;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(to left, var(--color-0389FF), var(--color-white));
+    right: 0%;
+    box-shadow: 0 0 10px var(--color-white);
+    transition: all 300ms linear;
+}
+
+.list-text:hover::after{
+    width: 100%;
+    left: 0%;
+    right: auto;
 }
 
 .menu-list {
@@ -191,7 +203,7 @@
     width: 100%;
     height: 100vh;
     right: -100%;
-    background: #0069E3;
+    background: linear-gradient(to bottom, var(--color-0389FF), var(--color-black));
     flex-direction: column;
     justify-content: center;
     transition: all 300ms linear;
@@ -534,11 +546,11 @@
     letter-spacing: -0.02em;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
-.footer-b0ttom-line{
+.footer-b0ttom-line {
     background: #344553;
     width: 100%;
     height: 2px;

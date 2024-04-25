@@ -538,6 +538,13 @@
     display: none;
 }
 
+.footer-b0ttom-line{
+    background: #344553;
+    width: 100%;
+    height: 2px;
+    display: flex;
+}
+
 
 @media (min-width:576px) {
 

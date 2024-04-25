@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +11,8 @@
 
 :root {
     /* font-size */
+    --fs-9: 9px;
+    --fs-10: 10px;
     --fs-11: 11px;
     --fs-sm: 12px;
     --fs-base: 14px;
@@ -30,8 +33,20 @@
     --color-0389FF: #0389FF;
 }
 
+.fs-9 {
+    font-size: var(--fs-9);
+}
+
+.fs-10 {
+    font-size: var(--fs-10);
+}
+
 .fs-11 {
     font-size: var(--fs-11);
+}
+
+.fs-12 {
+    font-size: var(--fs-sm);
 }
 
 .fs-14 {
@@ -82,6 +97,18 @@
     background: #020D15;
 }
 
+.bg-blue {
+    background: var(--color-0389FF);
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.radius-4 {
+    border-radius: 4px;
+}
+
 .section-1 {
     background-image: url(../image/img/t61.png);
     background-repeat: no-repeat;
@@ -96,6 +123,10 @@
 
 .plus-Sans {
     font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
 }
 
 .text-1 {
@@ -355,15 +386,88 @@
     border: 1px dotted #0389FF
 }
 
+.btn-add {
+    width: 129px;
+    height: 21px;
+    border-radius: 44px;
+}
 
+.border-r-5 {
+    border-radius: 5px;
+}
 
+.card1 {
+    background: #0389FF1F;
+    border-radius: 15px;
+    padding: 16px;
+    height: 100%;
+    width: 100%;
+    max-width: 231px;
+    position: relative;
+}
+
+.card2 {
+    background: #00000054;
+    border: 1px solid #FFFFFF1A;
+    padding: 14px;
+    border-radius: 22px;
+    height: 100%;
+    width: 100%;
+}
+
+.plus1 {
+    background: #0000001A;
+    border: 1px solid #0389FF33;
+    width: 40px;
+    height: 34px;
+    border-radius: 103px;
+    place-items: center;
+    transform: translate(-50%, -50%);
+    top: 0px;
+    right: -39px;
+}
+
+.arrow1 {
+    display: none;
+}
+
+/* .start-20 {
+    left: 20%;
+}
+
+.start-25 {
+    left: 25%;
+}
+
+.end-25 {
+    right: 23%;
+} */
 
 
 
 
 @media (min-width:576px) {
+
+    .line1,
+    .line2,
+    .line3 {
+        border-left: 1px solid #273139;
+        height: 100%;
+        width: 2px;
+        top: 0%;
+    }
+
     .heading3-text {
         line-height: 55px;
+    }
+}
+
+@media (min-width:768px) {
+    .arrow1 {
+        top: 50%;
+        right: -23%;
+        transform: translate(50%, -50%);
+        display: flex;
     }
 }
 
@@ -383,7 +487,65 @@
         display: none;
     }
 
+    .arrow1 {
+        right: -50%;
+    }
+
     .section4-heading {
         max-width: 400px;
+    }
+
+    .line2,
+    .line-center {
+        width: 100%;
+        height: 2px;
+        border-bottom: 1px solid #273139;
+        top: 35%;
+    }
+
+    .start-lg-33 {
+        left: 33.33%;
+    }
+
+    .end-lg-31 {
+        right: 31%;
+    }
+
+    .line-center {
+        bottom: 30%;
+        top: auto;
+    }
+}
+
+@media (min-width:1200px) {
+    .arrow1 {
+        right: -20px;
+    }
+
+    .line1,
+    .line2,
+    .line3 {
+        border-left: 1px solid #273139;
+        height: 100%;
+        width: 2px;
+        top: 0%;
+        border-bottom: none;
+    }
+
+    .start-xl-25 {
+        left: 25%;
+    }
+
+    .start-xl-50 {
+        left: 50%;
+    }
+
+    .end-xl-23 {
+        right: 23%;
+    }
+
+    .line-center {
+        bottom: 48%;
+        top: auto;
     }
 }

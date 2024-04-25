@@ -66,3 +66,26 @@ $('.slider1').slick({
     arrows: false,
 });
 
+let pre = document.querySelector(".preloader");
+
+setTimeout(() => {
+    pre.style.display = "none";
+}, 2000);
+
+const scrolltop1 = document.querySelector(".scrolltop");
+
+scrolltop1.addEventListener("click", function () {
+    window.scroll({
+        top: 0,
+    })
+});
+
+
+window.addEventListener("scroll", function () {
+    if (document.documentElement.scrollTop > 700) {
+        scrolltop1.style.display = "grid";
+    }
+    else {
+        scrolltop1.style.display = "none";
+    }
+});

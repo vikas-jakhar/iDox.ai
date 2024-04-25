@@ -471,6 +471,11 @@
 
 .hover-img {
     display: none;
+    transition: all 300ms linear;
+}
+
+.hover-text {
+    transition: all 300ms linear;
 }
 
 .hover1:hover {
@@ -481,6 +486,33 @@
     .hover-text {
         color: var(--color-0389FF);
     }
+}
+
+.section-9 {
+    background-image: url(../image/img/section9-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.max-w-617 {
+    max-width: 617px;
+}
+
+.input-1 {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+#form-box {
+    background: #FBFDFF12;
+    border-radius: 29px;
+    min-height: 55px;
+    padding-left: 33px;
+}
+
+.input-1::placeholder{
+    color: var(--color-FBFDFF);
 }
 
 

@@ -50,11 +50,11 @@
     font-size: var(--fs-11);
 }
 
-.fs-12 {
+.fs-sm {
     font-size: var(--fs-sm);
 }
 
-.fs-14 {
+.fs-base {
     font-size: var(--fs-base);
 }
 
@@ -62,27 +62,27 @@
     font-size: var(--fs-15);
 }
 
-.fs-16 {
+.fs-lg {
     font-size: var(--fs-lg);
 }
 
-.fs-18 {
+.fs-xl {
     font-size: var(--fs-xl);
 }
 
-.fs-20 {
+.fs-2xl {
     font-size: var(--fs-2xl);
 }
 
-.fs-32 {
+.fs-5xl {
     font-size: var(--fs-5xl);
 }
 
-.fs-44 {
+.fs-7xl {
     font-size: var(--fs-7xl);
 }
 
-.fs-48 {
+.fs-8xl{
     font-size: var(--fs-8xl);
 }
 

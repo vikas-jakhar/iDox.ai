@@ -57,8 +57,8 @@ section3heading.forEach(e => {
 $('.slider1').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
-    // infinite: true,
+    autoplay: true,
+    infinite: true,
     speed: 1000,
     centerMode: true,
     centerPadding: '60px',

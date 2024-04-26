@@ -598,6 +598,7 @@
     place-items: center;
     animation: 1s srcolltop infinite linear;
     z-index: 9;
+    display: none;
 }
 
 @keyframes srcolltop {
